@@ -1,0 +1,7 @@
+﻿windows_64: 用vs2013打开.\PathFindCore\PathFindCore.sln，然后选择Release - x64 configuration，编译！
+windows_32: 用vs2013打开.\PathFindCore\PathFindCore.sln，然后选择Release - x86 configuration，编译！
+android: 先安装NDK，然后运行脚本.\PathFindCore\build_android.bat
+ios: 用xcode打开.\PathFindIOS\PathFindIOS.xcodeproj，然后切换到Release build。用Xcode编译时，选择Project—Destination—Generic IOS Device，不要选择simulaters!!!
+选择Project—scheme—edit scheme—Run—info，将debug—release
+mac: 用xcode打开.\\PathFindMac\PathFindCore\PathFindCore.xcodeproj, 然后build。
+linux: cd .\PathFindCore; cmake; make

@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\BinaryHeapM.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NavGraph.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NaviPath.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Node.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NodeRunData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PathFinder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PathFindException.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PathFindLoader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PathFindUtil.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PathFindCore.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BaseType.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ABPath.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NNConstraint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NavGraphImmutable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\StartEndModifier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DirectMoveModifier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FunnelModifier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PathTagsModifier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\StopWatch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PathLog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\BinaryHeapM.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NavGraph.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NaviPath.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Node.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NodeRunData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PathFinder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PathFindLoader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PathFindUtil.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PathFindCore.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NNConstraint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ABPath.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NavGraphImmutable.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StartEndModifier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PathTagsModifier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FunnelModifier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DirectMoveModifier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StopWatch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PathLog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

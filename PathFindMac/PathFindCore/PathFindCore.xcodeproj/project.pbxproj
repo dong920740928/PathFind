@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6BEA8C51C855F750043202D /* ABPath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6BEA8B31C855F750043202D /* ABPath.cpp */; };
+		E6BEA8C61C855F750043202D /* BinaryHeapM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6BEA8B41C855F750043202D /* BinaryHeapM.cpp */; };
+		E6BEA8C71C855F750043202D /* DirectMoveModifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6BEA8B51C855F750043202D /* DirectMoveModifier.cpp */; };
+		E6BEA8C81C855F750043202D /* FunnelModifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6BEA8B61C855F750043202D /* FunnelModifier.cpp */; };
+		E6BEA8C91C855F750043202D /* NavGraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6BEA8B71C855F750043202D /* NavGraph.cpp */; };
+		E6BEA8CA1C855F750043202D /* NavGraphImmutable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6BEA8B81C855F750043202D /* NavGraphImmutable.cpp */; };
+		E6BEA8CB1C855F750043202D /* NaviPath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6BEA8B91C855F750043202D /* NaviPath.cpp */; };
+		E6BEA8CC1C855F750043202D /* NNConstraint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6BEA8BA1C855F750043202D /* NNConstraint.cpp */; };
+		E6BEA8CD1C855F750043202D /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6BEA8BB1C855F750043202D /* Node.cpp */; };
+		E6BEA8CE1C855F750043202D /* NodeRunData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6BEA8BC1C855F750043202D /* NodeRunData.cpp */; };
+		E6BEA8CF1C855F750043202D /* PathFindCore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6BEA8BD1C855F750043202D /* PathFindCore.cpp */; };
+		E6BEA8D01C855F750043202D /* PathFinder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6BEA8BE1C855F750043202D /* PathFinder.cpp */; };
+		E6BEA8D11C855F750043202D /* PathFindLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6BEA8BF1C855F750043202D /* PathFindLoader.cpp */; };
+		E6BEA8D21C855F750043202D /* PathFindUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6BEA8C01C855F750043202D /* PathFindUtil.cpp */; };
+		E6BEA8D31C855F750043202D /* PathLog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6BEA8C11C855F750043202D /* PathLog.cpp */; };
+		E6BEA8D41C855F750043202D /* PathTagsModifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6BEA8C21C855F750043202D /* PathTagsModifier.cpp */; };
+		E6BEA8D51C855F750043202D /* StartEndModifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6BEA8C31C855F750043202D /* StartEndModifier.cpp */; };
+		E6BEA8D61C855F750043202D /* StopWatch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6BEA8C41C855F750043202D /* StopWatch.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E6BEA8A21C855F1E0043202D /* PathFindCore.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PathFindCore.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6BEA8B31C855F750043202D /* ABPath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ABPath.cpp; path = ../../../PathFindCore/src/ABPath.cpp; sourceTree = "<group>"; };
+		E6BEA8B41C855F750043202D /* BinaryHeapM.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BinaryHeapM.cpp; path = ../../../PathFindCore/src/BinaryHeapM.cpp; sourceTree = "<group>"; };
+		E6BEA8B51C855F750043202D /* DirectMoveModifier.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DirectMoveModifier.cpp; path = ../../../PathFindCore/src/DirectMoveModifier.cpp; sourceTree = "<group>"; };
+		E6BEA8B61C855F750043202D /* FunnelModifier.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FunnelModifier.cpp; path = ../../../PathFindCore/src/FunnelModifier.cpp; sourceTree = "<group>"; };
+		E6BEA8B71C855F750043202D /* NavGraph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NavGraph.cpp; path = ../../../PathFindCore/src/NavGraph.cpp; sourceTree = "<group>"; };
+		E6BEA8B81C855F750043202D /* NavGraphImmutable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NavGraphImmutable.cpp; path = ../../../PathFindCore/src/NavGraphImmutable.cpp; sourceTree = "<group>"; };
+		E6BEA8B91C855F750043202D /* NaviPath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NaviPath.cpp; path = ../../../PathFindCore/src/NaviPath.cpp; sourceTree = "<group>"; };
+		E6BEA8BA1C855F750043202D /* NNConstraint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NNConstraint.cpp; path = ../../../PathFindCore/src/NNConstraint.cpp; sourceTree = "<group>"; };
+		E6BEA8BB1C855F750043202D /* Node.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Node.cpp; path = ../../../PathFindCore/src/Node.cpp; sourceTree = "<group>"; };
+		E6BEA8BC1C855F750043202D /* NodeRunData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NodeRunData.cpp; path = ../../../PathFindCore/src/NodeRunData.cpp; sourceTree = "<group>"; };
+		E6BEA8BD1C855F750043202D /* PathFindCore.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PathFindCore.cpp; path = ../../../PathFindCore/src/PathFindCore.cpp; sourceTree = "<group>"; };
+		E6BEA8BE1C855F750043202D /* PathFinder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PathFinder.cpp; path = ../../../PathFindCore/src/PathFinder.cpp; sourceTree = "<group>"; };
+		E6BEA8BF1C855F750043202D /* PathFindLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PathFindLoader.cpp; path = ../../../PathFindCore/src/PathFindLoader.cpp; sourceTree = "<group>"; };
+		E6BEA8C01C855F750043202D /* PathFindUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PathFindUtil.cpp; path = ../../../PathFindCore/src/PathFindUtil.cpp; sourceTree = "<group>"; };
+		E6BEA8C11C855F750043202D /* PathLog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PathLog.cpp; path = ../../../PathFindCore/src/PathLog.cpp; sourceTree = "<group>"; };
+		E6BEA8C21C855F750043202D /* PathTagsModifier.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PathTagsModifier.cpp; path = ../../../PathFindCore/src/PathTagsModifier.cpp; sourceTree = "<group>"; };
+		E6BEA8C31C855F750043202D /* StartEndModifier.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = StartEndModifier.cpp; path = ../../../PathFindCore/src/StartEndModifier.cpp; sourceTree = "<group>"; };
+		E6BEA8C41C855F750043202D /* StopWatch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = StopWatch.cpp; path = ../../../PathFindCore/src/StopWatch.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6BEA89F1C855F1E0043202D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6BEA8991C855F1E0043202D = {
+			isa = PBXGroup;
+			children = (
+				E6BEA8A71C855F1E0043202D /* PathFindCore */,
+				E6BEA8A31C855F1E0043202D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6BEA8A31C855F1E0043202D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6BEA8A21C855F1E0043202D /* PathFindCore.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6BEA8A71C855F1E0043202D /* PathFindCore */ = {
+			isa = PBXGroup;
+			children = (
+				E6BEA8B31C855F750043202D /* ABPath.cpp */,
+				E6BEA8B41C855F750043202D /* BinaryHeapM.cpp */,
+				E6BEA8B51C855F750043202D /* DirectMoveModifier.cpp */,
+				E6BEA8B61C855F750043202D /* FunnelModifier.cpp */,
+				E6BEA8B71C855F750043202D /* NavGraph.cpp */,
+				E6BEA8B81C855F750043202D /* NavGraphImmutable.cpp */,
+				E6BEA8B91C855F750043202D /* NaviPath.cpp */,
+				E6BEA8BA1C855F750043202D /* NNConstraint.cpp */,
+				E6BEA8BB1C855F750043202D /* Node.cpp */,
+				E6BEA8BC1C855F750043202D /* NodeRunData.cpp */,
+				E6BEA8BD1C855F750043202D /* PathFindCore.cpp */,
+				E6BEA8BE1C855F750043202D /* PathFinder.cpp */,
+				E6BEA8BF1C855F750043202D /* PathFindLoader.cpp */,
+				E6BEA8C01C855F750043202D /* PathFindUtil.cpp */,
+				E6BEA8C11C855F750043202D /* PathLog.cpp */,
+				E6BEA8C21C855F750043202D /* PathTagsModifier.cpp */,
+				E6BEA8C31C855F750043202D /* StartEndModifier.cpp */,
+				E6BEA8C41C855F750043202D /* StopWatch.cpp */,
+			);
+			path = PathFindCore;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6BEA8A11C855F1E0043202D /* PathFindCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6BEA8B01C855F1E0043202D /* Build configuration list for PBXNativeTarget "PathFindCore" */;
+			buildPhases = (
+				E6BEA89E1C855F1E0043202D /* Sources */,
+				E6BEA89F1C855F1E0043202D /* Frameworks */,
+				E6BEA8A01C855F1E0043202D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PathFindCore;
+			productName = PathFindCore;
+			productReference = E6BEA8A21C855F1E0043202D /* PathFindCore.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6BEA89A1C855F1E0043202D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+			};
+			buildConfigurationList = E6BEA89D1C855F1E0043202D /* Build configuration list for PBXProject "PathFindCore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E6BEA8991C855F1E0043202D;
+			productRefGroup = E6BEA8A31C855F1E0043202D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6BEA8A11C855F1E0043202D /* PathFindCore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6BEA8A01C855F1E0043202D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6BEA89E1C855F1E0043202D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6BEA8D41C855F750043202D /* PathTagsModifier.cpp in Sources */,
+				E6BEA8D61C855F750043202D /* StopWatch.cpp in Sources */,
+				E6BEA8CD1C855F750043202D /* Node.cpp in Sources */,
+				E6BEA8C71C855F750043202D /* DirectMoveModifier.cpp in Sources */,
+				E6BEA8CF1C855F750043202D /* PathFindCore.cpp in Sources */,
+				E6BEA8D11C855F750043202D /* PathFindLoader.cpp in Sources */,
+				E6BEA8C61C855F750043202D /* BinaryHeapM.cpp in Sources */,
+				E6BEA8D01C855F750043202D /* PathFinder.cpp in Sources */,
+				E6BEA8CC1C855F750043202D /* NNConstraint.cpp in Sources */,
+				E6BEA8D31C855F750043202D /* PathLog.cpp in Sources */,
+				E6BEA8C91C855F750043202D /* NavGraph.cpp in Sources */,
+				E6BEA8C81C855F750043202D /* FunnelModifier.cpp in Sources */,
+				E6BEA8C51C855F750043202D /* ABPath.cpp in Sources */,
+				E6BEA8CE1C855F750043202D /* NodeRunData.cpp in Sources */,
+				E6BEA8CB1C855F750043202D /* NaviPath.cpp in Sources */,
+				E6BEA8CA1C855F750043202D /* NavGraphImmutable.cpp in Sources */,
+				E6BEA8D21C855F750043202D /* PathFindUtil.cpp in Sources */,
+				E6BEA8D51C855F750043202D /* StartEndModifier.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E6BEA8AE1C855F1E0043202D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E6BEA8AF1C855F1E0043202D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E6BEA8B11C855F1E0043202D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = ../../PathFindCore/include;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		E6BEA8B21C855F1E0043202D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = ../../PathFindCore/include;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6BEA89D1C855F1E0043202D /* Build configuration list for PBXProject "PathFindCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6BEA8AE1C855F1E0043202D /* Debug */,
+				E6BEA8AF1C855F1E0043202D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6BEA8B01C855F1E0043202D /* Build configuration list for PBXNativeTarget "PathFindCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6BEA8B11C855F1E0043202D /* Debug */,
+				E6BEA8B21C855F1E0043202D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6BEA89A1C855F1E0043202D /* Project object */;
+}
